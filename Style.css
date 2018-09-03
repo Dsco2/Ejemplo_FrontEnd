@@ -1,0 +1,23 @@
+header
+{
+  color: blue;
+  background-color: antiquewhite;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+    background-color: bisque;
+    margin: 5px;
+}
+
+nav {
+    background-color: rgb(37, 215, 255);
+}
+
+
+.Encabezado img{
+    border-radius: 100%
+
+}
