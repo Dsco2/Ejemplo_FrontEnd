@@ -1,23 +1,77 @@
-header
+.Encabezado
 {
-  color: blue;
-  background-color: antiquewhite;
-  font-size: 20px;
-  text-align: center;
-  padding: 10px;
+    border-bottom: solid;
+    border-color: #61C5BB;
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 200px
+    
+    
 }
 
-h1 {
-    background-color: bisque;
-    margin: 5px;
+.Perfil
+{
+    font-size: 14px;
+    text-align: left;
+    max-width: 40%; 
+    float: left;  
+    margin-left: 5%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-nav {
-    background-color: rgb(37, 215, 255);
+.Perfil h1 
+{
+    font-size: 18px;
+    color: #61C5BB;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
 
+.Perfil header 
+{
+    font-size: 24px;
+}
 
-.Encabezado img{
-    border-radius: 100%
+.Foto img{
+    border-radius: 100%;
+    width: 125px;
+    height: 125px;
+    border-style: solid;
+    border-color: #61C5BB;
+    max-width: 30%;
+}
 
+.Datos
+{
+    max-width: 35%;
+    float: right;
+    margin-right: 10%;
+}
+
+.Experiencia 
+{
+    max-width: 40%;
+    float: left;
+    margin-right: 5%
+}
+
+.Habilidades 
+{
+    max-width: 55%;
+}
+
+.Experiencia  h3
+{
+    font-weight: bold;
+    max-width: 45%;
+}
+
+.Experiencia  h4
+{
+    color: #61C5BB;
+}
+
+.info 
+{
+    display: flex;
 }
